@@ -10,15 +10,20 @@ public class ShapeCollector {
         // do nothing
     }
 
-    public void removeFigure(Shape shape) {
-        // do nothing
+    public int sizeList() {
+        return 0;
+    }
+
+    public boolean removeFigure(Shape shape) {
+        return false;
     }
 
     public Shape getFigure(int i) {
         return null;
     }
 
-    public void showFigure() {
+    public String showFigure() {
         // do nothing
+        return null;
     }
 }
