@@ -15,11 +15,11 @@ public class ShapeCollector {
     }
 
     public boolean removeFigure(Shape shape) {
-        return false;
+        return myShapes.remove(shape);
     }
 
     public Shape getFigure(int i) {
-        return null;
+        return myShapes.get(i);
     }
 
     public String showFigure() {
