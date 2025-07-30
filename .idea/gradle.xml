@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/com.kodilla.testing.shape" />
+            <option value="$PROJECT_DIR$/shape_module" />
           </set>
         </option>
       </GradleProjectSettings>

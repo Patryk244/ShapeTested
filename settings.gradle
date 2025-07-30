@@ -1,2 +1,3 @@
 rootProject.name = 'ShapeTested'
 include 'com.kodilla.testing.shape'
+include 'shape_module'
