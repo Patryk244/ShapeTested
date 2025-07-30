@@ -7,11 +7,11 @@ public class ShapeCollector {
     List<Shape> myShapes = new ArrayList<>();
 
     public void addFigure(Shape shape) {
-        // do nothing
+        myShapes.add(shape);
     }
 
     public int sizeList() {
-        return 0;
+        return myShapes.size();
     }
 
     public boolean removeFigure(Shape shape) {
@@ -23,7 +23,13 @@ public class ShapeCollector {
     }
 
     public String showFigure() {
-        // do nothing
-        return null;
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < myShapes.size(); i++) {
+            builder.append(myShapes.get(i).getShapeName());
+            if (i != myShapes.size() - 1) {
+                builder.append(" ");
+            }
+        }
+        return builder.toString();
     }
 }

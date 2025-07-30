@@ -10,6 +10,11 @@ public class ShapeCollectorTestSuite {
 
     public static ShapeCollector collector;
 
+    @BeforeEach
+    public void setUp() {
+        collector = new ShapeCollector();
+    }
+
     @Nested
     @DisplayName("Test for shape")
     class TestShape {
